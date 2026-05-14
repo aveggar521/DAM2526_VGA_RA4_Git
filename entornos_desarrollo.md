@@ -6,3 +6,6 @@ En un proyecto informático no solo es importante escribir código. También es 
 
 ## IDE
 un IDE es un software de desarrollo para programacion en el qu puedes editar, compilar o depurar codigo
+
+## Control de versiones
+Un sistema de control de versiones es una herramienta para guadar versiones de codigos o de archivos. Es útil porque te permite revertir cambos, tener un historial y control a largo plazo de lo que has estado haciendo.
