@@ -13,3 +13,4 @@ Un sistema de control de versiones es una herramienta para guadar versiones de c
 ## Pruebas de software
 Las pruebas de software son procesos de evaluación que verifican que una aplicación funciona correctamente.
 Las pruebas unitarias son métodos automatizados que verifican que la parte más pequeña de código testeable.
+Las pruebas automatizadas permiten una ejecución rápida  de casos de prueba, identificando errores de forma temprana.
