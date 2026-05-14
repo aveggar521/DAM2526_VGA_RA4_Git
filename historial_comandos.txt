@@ -1,0 +1,109 @@
+    1  history -w
+    2  git init
+    3  git branch -M main
+    4  git remote add origin https://github.com/aveggar521/DAM2526_VGA_RA4_Git.git
+    5  git add .
+    6  git commit -m "Version A: Primera entrega"
+    7  git push -u origin main
+    8  git add .
+    9  git commit -m "Version B: explicaion de un IDE"
+   10  git push -u origin main
+   11  git add .
+   12  git commit -m "Version C: explicacion de control de versiones"
+   13  git push -u origin main
+   14  git checkout -b testing
+   15  git commit -m "Version T1: explicacion pruebas de software"
+   16  git add .
+   17  git commit -m "Version T1: explicacion pruebas de software"
+   18  git add .
+   19  git commit -m "Version T2: explicacion pruebas unitarias"
+   20  git add .
+   21  git commit -m "Version T3: explicaion pruebas automatizadas"
+   22  git  log  --oneline --graph --all
+   23  git . add
+   24  git add .
+   25  git commit -m "Verificacion 1: subida de verificacion_ramas.png"
+   26  git push -u origin main
+   27  git checkout main
+   28  git push -u origin main
+   29  git checkout testing
+   30  git push origin testing
+   31  git checkout main
+   32  git add .
+   33  git commit -m "Version D: explicacion repositoria remoto"
+   34  git add .
+   35  git commit -m "Version E: diferencias trabajar en remoto y en local"
+   36  git push -u origin main
+   37  git reset --hard
+   38  git push -u origin main
+   39  git  log  --oneline --graph --all
+   40  git reset --hard
+   41  git  log  --oneline --graph --all
+   42  git reset --hard HEAD~1
+   43  git  log  --oneline --graph --all
+   44  git push -u origin main
+   45  git pull --rebase origin main
+   46  git add .
+   47  git commit -m "Version D: explicacion repositoria remoto"
+   48  git pull --rebase origin main
+   49  git push -u origin main
+   50  git add .
+   51  git rebase --continue
+   52  git push -u origin main
+   53  git add .
+   54  git commit -m "Version D: explicacion repositoria remoto"
+   55  git pull --rebase origin main
+   56  git push -u origin main
+   57  git add .
+   58  git rebase --continue
+   59  git push -u origin main
+   60  git  log  --oneline --graph --all
+   61  git checkout testing
+   62  git  log  --oneline --graph --all
+   63  git add .
+   64  git commit -m "Parte 4. Actualizar la rama testing"
+   65  git push origin main
+   66  git push origin testing
+   67  git push -u origin testing
+   68  git add .
+   69  git commit -m "Parte 4. Actualizar la rama testing"
+   70  git push -u origin testing
+   71  git add .
+   72  git commit -m "Parte 4. Actualizar la rama testing"
+   73  git checkout main
+   74  git checkout testing
+   75  git add .
+   76  git commit -m "Parte 4. Actualizar la rama testing"
+   77  git add .
+   78  git commit -m "commit sin la imagen"
+   79  git push -u origin testing
+   80  git add .
+   81  git commit -m "Parte 4. Actualizar la rama testing"
+   82  git push -u origin testing
+   83  history
+   84  git checkout main
+   85  git add .
+   86  git commit -m "Parte 5. Provocar y resolver un conflicto"
+   87  git checkout testing
+   88  git add .
+   89  git commit -m "Rama testing: Parte 5. Provocar y resolver un conflicto"
+   90  git checkout main
+   91  git merge testing
+   92  git add .
+   93  git commit -m "Conflicto resuelto"
+   94  git push -u origin main
+   95  git push -u origin main
+   96  git add .
+   97  git commit -m "Parte 6.Deshacer un cambio manteniendo el historial"
+   98  git push -u origin main
+   99  git reset --hard HEAD~1
+  100  git add .
+  101  git commit -m "Ultimo commit con el resultado final"
+  102  git push -u origin main
+  103  git  log  --oneline --graph --all
+  104  git reset --hard 
+  105  git  log  --oneline --graph --all
+  106  it revert HEAD
+  107  git revert HEAD
+  108  git revert e45455c
+  109  history > historial_comandos.txt
