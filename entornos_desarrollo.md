@@ -23,5 +23,5 @@ Las pruebas automatizadas permiten una ejecución rápida  de casos de prueba, i
 Un repositorio remoto es una versión del proyecto alojada en GitHub. Sirve para el trabajo colaborativo copias de seguridad, etc.
 
 
-
+Este documento ha sido completado correctamente.
 
